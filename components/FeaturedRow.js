@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, ScrollView } from "react-native";
 import { EvilIcons } from "@expo/vector-icons";
+import RestaurantCards from "./RestaurantCards"
 
 const FeaturedRow = ({ id, title, description }) => {
   return (
@@ -18,7 +19,18 @@ const FeaturedRow = ({ id, title, description }) => {
         showsHorizontalScrollIndicator={false}
         className="pt-4 "
       >
-          
+          <RestaurantCards
+           id={123}
+           imgUrl="https://picsum.photos/seed/picsum/200/300"
+           title="Yo, Sushi!"
+           rating={4.5}
+           genre="Japanese"
+           address="123 Man st"
+           short_description="Description"
+           dishes={[]}
+           long={20}
+           lat={0}
+          />
       </ScrollView>
     </View>
   );
