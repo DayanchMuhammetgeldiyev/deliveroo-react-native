@@ -32,7 +32,7 @@ const RestaurantCards = ({
         </View>
         <View className="flex-row items-center space-x-1 mt-2 mb-2">
         <Entypo name="location-pin" size={22} opacity={0.5} color="gray" />
-        <Text className="text-xs text-gray-500">Nearby * {address}</Text>
+        <Text className="text-xs text-gray-500">hey * {address}</Text>
         </View>
       </View>
     </TouchableOpacity>
