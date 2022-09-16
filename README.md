@@ -4,4 +4,4 @@
 - React-Native
 
 
-![image info](./image/screen.png)
+<img src="./image/screen.png" alt="drawing" width="200"/>
