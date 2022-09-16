@@ -4,4 +4,4 @@
 - React-Native
 
 
-![image info](./image/Screenshoot.jpg)
+![image info](./image/screen.png)
